@@ -23,7 +23,7 @@
   const countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
 
-        const now = new Date().getTime(),
+        const now = new Date(birthday).getTime(),
               distance = -1;
 
         document.getElementById("days").innerText = Math.floor(distance / (day)),

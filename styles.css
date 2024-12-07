@@ -33,6 +33,7 @@ body {
   color: #e4e0d7;
   margin: 0 auto;
   text-align: center;
+  border: 2px solid red;
 }
 
 h1 {
@@ -63,8 +64,6 @@ li span {
   font-size: 4rem;
   padding: 0 .5rem;
 }
-
-/* Center the logo */ .centered-logo { width: auto; height: auto; margin-bottom: 40px;
 
 @media all and (max-width: 768px) {
   h1 {

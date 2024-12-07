@@ -64,6 +64,7 @@ li span {
   padding: 0 .5rem;
 }
 
+/* Center the logo */ .centered-logo { width: auto; height: auto; margin-bottom: 40px;
 
 @media all and (max-width: 768px) {
   h1 {

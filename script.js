@@ -16,7 +16,7 @@
   
   today = mm + "/" + dd + "/" + yyyy + " " + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
   if (today > birthday) {
-    birthday = dayMonth + nextYear " 11:00:00";
+    birthday = dayMonth + nextYear + " 11:00:00";
   }
   //end
   

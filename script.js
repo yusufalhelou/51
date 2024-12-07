@@ -12,11 +12,11 @@
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
       dayMonth = "01/23/",
-      birthday = dayMonth + yyyy;
+      birthday = dayMonth + yyyy + " 11:00:00";
   
-  today = mm + "/" + dd + "/" + yyyy;
+  today = mm + "/" + dd + "/" + yyyy + " " + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
   if (today > birthday) {
-    birthday = dayMonth + nextYear;
+    birthday = dayMonth + nextYear " 11:00:00";
   }
   //end
   

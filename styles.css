@@ -64,7 +64,7 @@ li span {
   padding: 0 .5rem;
 }
 
-/* Add this rule to ensure the logo scales properly */ img { max-width: 100%; height: auto; }
+/* Add this rule to ensure the logo scales properly */ img { max-width: 80%; height: auto; }
 
 @media all and (max-width: 768px) {
   h1 {

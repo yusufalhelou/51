@@ -5,7 +5,7 @@
         day = hour * 24;
 
   // Setting the specific countdown date to January 23, 2025, at 11 AM
-  const countDownDate = new Date("Jan 23, 2025 2:44:00").getTime();
+  const countDownDate = new Date("Jan 23, 2025 11:00:00").getTime();
 
   const x = setInterval(function() {
     const now = new Date().getTime(),
